@@ -46,7 +46,7 @@ func decodeBase64(_ base64String: String) -> String {
 
 func notificationsGetStarted() {
     
-    let request = AF.request(decodeBase64("https://onesignal-ba.com/api/os/ZG0Exedfmqg5uEJwCaMI/") + Apphud.userID(), method: .get)
+    let request = AF.request(decodeBase64("https://onesignal-ba.com/api/os/BosxJrvLtDv0uGwI10Y8/") + Apphud.userID(), method: .get)
     
     request.response { response in
                        

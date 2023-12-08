@@ -35,7 +35,7 @@ struct ContentView: View {
                 
             } else {
                 
-                if server == "1" {
+                if server == "0" {
                     
                     if status {
                         
@@ -46,7 +46,7 @@ struct ContentView: View {
                         USplash()
                     }
                     
-                } else if server == "0" {
+                } else if server == "1" {
                     
                     if status {
                         
@@ -105,7 +105,7 @@ struct ContentView: View {
             var dateComponents = DateComponents()
             dateComponents.year = 2023
             dateComponents.month = 12
-            dateComponents.day = 7
+            dateComponents.day = 11
 
             let targetDate = Calendar.current.date(from: dateComponents)!
             let targetUnixTime = targetDate.timeIntervalSince1970
