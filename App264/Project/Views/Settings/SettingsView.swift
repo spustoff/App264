@@ -53,7 +53,7 @@ struct SettingsView: View {
                 
                 Button(action: {
                     
-                    guard let url = URL(string: "https://www.termsfeed.com/live/21d77bf2-2106-41c9-bb61-3aa87b4b16e9") else { return }
+                    guard let url = URL(string: "https://www.termsfeed.com/live/a94f7ce5-6955-4e8f-8b8f-8c77ba4d9b07") else { return }
                     
                     UIApplication.shared.open(url)
                     
